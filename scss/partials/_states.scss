@@ -2,6 +2,11 @@
 // aside states************************************************************************************
 .aside {
     &:hover {
-        width: 300px;
+        width: 18.75rem;
+        background-color: $dark-brown;
+    }
+    &-wrap:hover
+    .aside-wrap-link {
+        color: red;
     }
 }

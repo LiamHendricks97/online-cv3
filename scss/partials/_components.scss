@@ -34,7 +34,7 @@
     justify-content: space-around;
     top: 0;
     position: sticky;
-    background-color: black;
+    background-color: $secondary-brown;
     width: 3.75rem;
     transition: all ease 180ms;
     height: 100vh;
@@ -44,9 +44,11 @@
         display: flex;
         flex-wrap: nowrap;
         position: relative;
-        margin-left: 14px;
+        margin-left: 0.875rem;
         &-text {
-            margin-left: 50px;
+            margin-left: 3.125rem;
+            font-size: 1.5625rem;
+            overflow: hidden;
         }
 
     }

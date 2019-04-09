@@ -30,7 +30,7 @@ body {
   justify-content: space-around;
   top: 0;
   position: sticky;
-  background-color: black;
+  background-color: #685125;
   width: 3.75rem;
   transition: all ease 180ms;
   height: 100vh; }
@@ -39,9 +39,11 @@ body {
     display: flex;
     flex-wrap: nowrap;
     position: relative;
-    margin-left: 14px; }
+    margin-left: 0.875rem; }
     .aside-wrap-text {
-      margin-left: 50px; }
+      margin-left: 3.125rem;
+      font-size: 1.5625rem;
+      overflow: hidden; }
 
 .main-about {
   width: 100%; }
@@ -58,7 +60,7 @@ body {
   grid-template: 'header     header'     100vh 'aside      main'       100vh 'aside      main'       10vh 'footer     footer'     100vh / 3.75rem auto; }
   .layout-container .header {
     grid-area: header;
-    background: linear-gradient(#000000bd, #0000003b), url(../images/bg-header.jpg);
+    background: linear-gradient(#000000de, #00000063), url(../images/bg-header.jpg);
     background-attachment: fixed; }
   .layout-container .aside {
     grid-area: aside; }
@@ -80,6 +82,10 @@ body {
     width: 50%; }
 
 .aside:hover {
-  width: 300px; }
+  width: 18.75rem;
+  background-color: #493a25; }
+.aside-wrap:hover
+.aside-wrap-link {
+  color: red; }
 
 /*# sourceMappingURL=main.css.map */
