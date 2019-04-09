@@ -1,2 +1,26 @@
 
 // layout container********************************************************************************
+.layout-container {
+    display: grid;
+    grid-template:
+        'header     header'     100vh
+        'aside      main'       100vh
+        'aside      main'       10vh
+        'footer     footer'     100vh / 3.75rem auto;
+
+    .header {
+        grid-area: header;
+        background: linear-gradient(#000000bd, #0000003b), url(../images/bg-header.jpg);
+    }
+    .aside {
+        grid-area: aside;
+    }
+    .main {
+        grid-area: main;
+    }
+    .footer {
+        grid-area: footer;
+    }
+}
+
+// specific sections***********************************************************

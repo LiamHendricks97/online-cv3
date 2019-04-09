@@ -1,0 +1,57 @@
+
+// Header******************************************************************************************
+.header {
+    display: flex;
+    justify-content: center;
+
+    .header-center-wrap {
+        align-self: center;
+        margin-top: -9.375rem;
+
+        .header-title {
+            text-align: center;
+            font-size: 6.875rem;
+            color: white;
+        }
+
+        .header-button-wrap {
+            display: flex;
+            justify-content: center;
+            .header-button {
+                margin: 0 0.625rem;
+                width: 10rem;
+                height: 2.5rem;
+                border: solid black 0.0625rem ;
+                background-color: white;
+            }
+        }
+    }
+}
+// side-bar**************************************************************************************** 
+.aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 0;
+    position: sticky;
+    background-color: red;
+    width: 3.75rem;
+    transition: all ease 180ms;
+    height: 100vh;
+
+    &-wrap {
+        top: 0;
+    }
+}
+
+// paralax effect sections*************************************************************************
+.bg-paralax {
+    background-attachment: fixed;
+    width: 100%;
+    
+    &-top {
+        grid-area: paralax-top;
+        // background-color: white;
+        background-image: url(../images/img-main-top.jpg);
+    }
+}
