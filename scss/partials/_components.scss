@@ -31,27 +31,38 @@
 .aside {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     top: 0;
     position: sticky;
-    background-color: red;
+    background-color: black;
     width: 3.75rem;
     transition: all ease 180ms;
     height: 100vh;
 
     &-wrap {
-        top: 0;
+        color: white;
+        display: flex;
+        flex-wrap: nowrap;
+        position: relative;
+        margin-left: 14px;
+        &-text {
+            margin-left: 50px;
+        }
+
     }
 }
-
-// paralax effect sections*************************************************************************
-.bg-paralax {
-    background-attachment: fixed;
+// main********************************************************************************************
+// about***********************************************************************
+.main-about {
     width: 100%;
-    
-    &-top {
-        grid-area: paralax-top;
-        // background-color: white;
-        background-image: url(../images/img-main-top.jpg);
+    .main-about-title {
+        text-align: center;
+        font-size: 3.125rem;
+    }
+    .main-about-text {
+        padding-left: 3.75rem;
+    }
+    .main-about-img {
+        top: 0;
     }
 }

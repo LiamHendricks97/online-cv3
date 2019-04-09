@@ -11,6 +11,7 @@
     .header {
         grid-area: header;
         background: linear-gradient(#000000bd, #0000003b), url(../images/bg-header.jpg);
+        background-attachment: fixed;
     }
     .aside {
         grid-area: aside;
@@ -24,3 +25,19 @@
 }
 
 // specific sections***********************************************************
+.main-about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &-title {
+        width: 100%;
+    }
+    &-text {
+        width: 50%;
+    }
+    &-img {
+        width: 50%;
+    }
+}
