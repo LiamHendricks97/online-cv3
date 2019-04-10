@@ -3,10 +3,16 @@
 .aside {
     &:hover {
         width: 18.75rem;
-        background-color: $dark-brown;
+        background:linear-gradient(#0000009f, black), url(../images/bg-aside.jpg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     &-wrap:hover
     .aside-wrap-link {
         color: red;
+    }
+    &:hover
+    .aside-wrap-text {
+        color: white;
     }
 }

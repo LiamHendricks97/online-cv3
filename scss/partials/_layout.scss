@@ -4,7 +4,7 @@
     display: grid;
     grid-template:
         'header     header'     100vh
-        'aside      main'       100vh
+        'aside      main'       auto
         'aside      main'       10vh
         'footer     footer'     100vh / 3.75rem auto;
 
@@ -25,19 +25,20 @@
 }
 
 // specific sections***********************************************************
-.main-about {
+.main-section{
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 3.125rem;
 
-    &-title {
+    .main-title {
         width: 100%;
     }
-    &-text {
+    .main-text {
         width: 50%;
     }
-    &-img {
-        width: 50%;
+    .main-img {
+        width: 40%;
     }
 }
