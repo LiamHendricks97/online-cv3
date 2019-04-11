@@ -1,6 +1,17 @@
 * {
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
+}
+
+h1, h2, h3, h4, h5 ,h6, button {
+    font-family: 'Merriweather', serif;
+}
+
+a, p, span, li {
+    font-family: 'Fira Sans', sans-serif;
 }

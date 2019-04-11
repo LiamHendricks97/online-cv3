@@ -5,8 +5,8 @@
     grid-template:
         'header     header'     100vh
         'aside      main'       auto
-        'aside      main'       10vh
-        'footer     footer'     100vh / 3.75rem auto;
+        'aside      main'       auto
+        'footer     footer'     30vh / 3.75rem auto;
 
     .header {
         grid-area: header;
@@ -40,5 +40,58 @@
     }
     .main-img {
         width: 40%;
+    }
+}
+.main-education {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+// footer******************************************************************************************
+.footer {
+    background: darken($color: $secondary-brown, $amount: 15%);
+}
+
+
+
+// paralax images**********************************************************************************
+.paralax {
+    width: 100%;
+}
+.paralax-top {
+    background: url(../images/img-main-top.jpg) no-repeat fixed;
+    height: 50vh;
+    background-size: cover;
+} 
+.paralax-mid {
+    background: url(../images/bg-main-mid.jpg) no-repeat fixed;
+    height: 50vh;
+    background-size: cover;
+}
+.paralax-bot {
+    background: url(../images/img-main-bot.jpg) no-repeat fixed;
+    height: 50vh;
+    background-size: cover;
+}
+
+// flexbox-containers******************************************************************************
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.portfolio-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    .portfolio-image {
+        width: 18.75rem;
+        height: 18.75rem;
+        background-color: black;
     }
 }

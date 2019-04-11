@@ -7,12 +7,18 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
-    &-wrap:hover
-    .aside-wrap-link {
-        color: red;
+}
+
+.aside-wrap:hover .aside-wrap-text,
+.aside-wrap:hover .aside-wrap-img {
+    color: lighten($cream, $amount: 10%);
+}
+.aside-wrap-link {
+    text-decoration: none;
+    &:link {
+        color: white;
     }
-    &:hover
-    .aside-wrap-text {
+    &:visited {
         color: white;
     }
 }

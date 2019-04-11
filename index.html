@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300i|Merriweather:300" rel="stylesheet"> 
 
 </head>
 <body class="layout-container">
@@ -15,48 +16,87 @@
         <div class="header-center-wrap">
             <h1 class="header-title">Liam Hendricks</h1>
             <div class="header-button-wrap">
-                <button class="header-button"></button>
-                <button class="header-button"></button>
+                <button class="header-button">random</button>
+                <button class="header-button">Download CV</button>
             </div>
         </div>
     </header>
 <!-- aside***************************************************************************************** -->
     <aside class="aside">
         <div class="aside-wrap">
-            <a class="aside-wrap-link"><i class="fas fa-home" style="font-size: 1.6em;" href="#home"></i></a>
+            <a class="aside-wrap-link"><i class=" aside-wrap-img fas fa-home" style="font-size: 1.6em;" href="#home"></i></a>
             <a class="aside-wrap-link"><span class="aside-wrap-text">Home</span></a>
         </div>
         <div class="aside-wrap">
-            <a class="aside-wrap-link"><i class="fas fa-user" style="font-size: 1.6em;" href="#me"></i></a>
-            <a class="aside-wrap-link"><span class="aside-wrap-text">About&nbspme</span></a>
+            <a href="#main-about" class="aside-wrap-link"><i class=" aside-wrap-img fas fa-user" style="font-size: 1.6em;" href="#me"></i></a>
+            <a href="#main-about" class="aside-wrap-link"><span class="aside-wrap-text">About&nbspme</span></a>
         </div>
         <div class="aside-wrap">
-            <a class="aside-wrap-link"><i class="fas fa-book" style="font-size: 1.6em;" href="#edu"></i></a>
-            <a class="aside-wrap-link"><span class="aside-wrap-text">Education</span></a>
+            <a href="#main-education" class="aside-wrap-link"><i class=" aside-wrap-img fas fa-book" style="font-size: 1.6em;" href="#edu"></i></a>
+            <a href="#main-education" class="aside-wrap-link"><span class="aside-wrap-text">Education</span></a>
         </div>
         <div class="aside-wrap">
-            <a class="aside-wrap-link"><i class="fas fa-code" style="font-size: 1.6em;" href="#skills"></i></a>
-            <a class="aside-wrap-link"><span class="aside-wrap-text">Skills</span></a>
+            <a href="#main-skills" class="aside-wrap-link"><i class=" aside-wrap-img fas fa-code" style="font-size: 1.6em;" href="#skills"></i></a>
+            <a href="#main-skills" class="aside-wrap-link"><span class="aside-wrap-text">Skills</span></a>
         </div>
         <div class="aside-wrap">
-            <a class="aside-wrap-link"><i class="fas fa-briefcase" style="font-size: 1.6em" href="#portfolio"></i></a>
-            <a class="aside-wrap-link"><span class="aside-wrap-text">Portfolio</span></a>
+            <a href="#main-portfolio" class="aside-wrap-link"><i class=" aside-wrap-img fas fa-briefcase" style="font-size: 1.6em" href="#portfolio"></i></a>
+            <a href="#main-portfolio" class="aside-wrap-link"><span class="aside-wrap-text">Portfolio</span></a>
         </div>
         <div class="aside-wrap">
-            <a class="aside-wrap-link"><i class="fas fa-phone-square" style="font-size: 1.6em;" href="#contact"></i></a>
+            <a class="aside-wrap-link"><i class=" aside-wrap-img fas fa-phone-square" style="font-size: 1.6em;" href="#contact"></i></a>
             <a class="aside-wrap-link"><span class="aside-wrap-text">Contact</span></a>
         </div>
     </aside>
 <!-- main****************************************************************************************** -->
     <main class="main">
         <section class="main-about main-section">
-            <h1 class="main-title">About me</h1>
+            <h1 id="main-about" class="main-title">About me</h1>
             <img class="main-img" src="" alt="">
             <p class="main-text">I'm a avid coder who enjoys working in a team. My goal is to become a respectable developer in where I can express my creativeness to its fullest to the benefit to my employer. My outgoing personality makes me very approachable and open to constructive feedback. </p>
         </section>
         <section class="paralax paralax-top"></section>
         <section class="main-education main-section">
-            <h1 class="main-title">Education</h1>
+            <h1 id="main-education" class="main-title">Education</h1>
+            <div>
+                <h3>High school subjects</h3>
+                    <ul>
+                        <li>Pure Mathematics</li>
+                        <li>Business Studies</li>
+                        <li>Biology</li>
+                        <li>Computer Applications Technology (CAT)</li>
+                        <li>English Home Language</li>
+                        <li>Afrikaans 1st additional Language</li>
+                    </ul>
+            </div>
+            <div>
+                <h3>Northlink College</h3>
+                    <ul>
+                        <li>N3 Engineering Science</li>
+                        <li>N3 Mathematics</li>
+                        <li>N3 Industrial Electronics</li>
+                        <li>N3 Electrotechnology</li>
+                    </ul>
+            </div>  
+        </section>
+        <section class="paralax paralax-mid"></section>
+        <section class="main-skills main-section">
+            <h2 id="main-skills" class="main-title">Skills and abilities</h2>
+            <div class="skills-container" id="skills">
+                <i class="fab fa-html5 htmlogoContainer" style="font-size:12.5em;color:#000000;"></i>
+                <i class="fab fa-css3-alt csslogoContainer" style="font-size:12.5em;color:#000000;"></i>
+                <i class="fab fa-js javaLogoContainer" style="font-size:12.5em;color:#000000;"></i>
+                <i class="fab fa-git" style="font-size:12.5rem;color:black"></i>
+            </div>
+        </section>
+        <section class="paralax paralax-bot"></section>
+        <section class="main-portfolio main-section">
+            <h1 id="main-portfolio" class="main-title">Portfolio</h1>
+            <div class="portfolio-container">
+                <img class="portfolio-image" src="" alt="">
+                <img class="portfolio-image" src="" alt="">
+                <img class="portfolio-image" src="" alt="">
+            </div>
         </section>
     </main>
     <footer class="footer"></footer>
