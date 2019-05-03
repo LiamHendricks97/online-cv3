@@ -71,6 +71,7 @@ a, p, span, li {
   .layout-container .header {
     grid-area: header;
     background: linear-gradient(#000000de, #00000063), url(../images/bg-header.jpg);
+    background-size: cover;
     background-attachment: fixed; }
   .layout-container .aside {
     grid-area: aside; }
