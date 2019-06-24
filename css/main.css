@@ -67,7 +67,7 @@ a, p, span, li {
 
 .layout-container {
   display: grid;
-  grid-template: 'header     header'     100vh 'aside      main'       auto 'aside      main'       auto 'footer     footer'     30vh / 3.75rem auto; }
+  grid-template: 'header     header'     100vh 'aside      main'       auto 'aside      main'       auto 'footer     footer'     10vh / 3.75rem auto; }
   .layout-container .header {
     grid-area: header;
     background: linear-gradient(#000000de, #00000063), url(../images/bg-header.jpg);
@@ -134,7 +134,8 @@ a, p, span, li {
   .portfolio-container .portfolio-image {
     width: 18.75rem;
     height: 18.75rem;
-    background-color: black; }
+    background-size: contain;
+    object-fit: cover; }
 
 .aside:hover {
   width: 18.75rem;

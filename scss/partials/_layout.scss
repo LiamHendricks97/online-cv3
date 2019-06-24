@@ -6,7 +6,7 @@
         'header     header'     100vh
         'aside      main'       auto
         'aside      main'       auto
-        'footer     footer'     30vh / 3.75rem auto;
+        'footer     footer'     10vh / 3.75rem auto;
 
     .header {
         grid-area: header;
@@ -93,6 +93,9 @@
     .portfolio-image {
         width: 18.75rem;
         height: 18.75rem;
-        background-color: black;
+        background-size: contain;
+        object-fit: cover;
+        
+        // background-color: black;
     }
 }
